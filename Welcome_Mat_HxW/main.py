@@ -27,6 +27,6 @@ def build_mat(height: int, width: int):
     return string
 
 if __name__ == '__main__':
-    h, w = [int(i) for i in input().split()]
+    h, w = [int(i) for i in input('Enter desired width and height (height * 3) separated by spaces:').split()]
     output = build_mat(h, w)
     print(output)
