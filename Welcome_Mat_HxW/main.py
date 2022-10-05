@@ -24,7 +24,7 @@ def build_mat(height: int, width: int):
     for i in arr:
         string += '\n' + i
 
-    retur n(string)
+    return string
 
 if __name__ == '__main__':
     h, w = [int(i) for i in input().split()]
